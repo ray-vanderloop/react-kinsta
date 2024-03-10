@@ -49,13 +49,16 @@
 .footer-link-items p {
   color: #fff;
   margin: 5px;
-  font-weight: bold;
 }
 
 .footer-link-items p:hover {
   color: rgb(0, 224, 206);
   transition: 0.3s ease-out;
 }
+.footer-link-items a:hover {
+    color: rgb(0, 224, 206);
+    transition: 0.3s ease-out;
+  }
 
 .footer-email-form h2 {
   margin-bottom: 2rem;
@@ -71,7 +74,7 @@
   width: 50px;
 }
 
-.social-icon-link {
+.social-icon-link a {
   color: #fff;
   font-size: 24px;
 }
